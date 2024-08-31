@@ -39,7 +39,7 @@ The for loop reads each line from f and adds it to line each time around line ha
 - print(line) - Prints the contents of line (wich is the contents of f)
 
 
-# Creating a list from file contents
+## Creating a list from file contents
 
 ```
 filename = names.txt
@@ -62,6 +62,24 @@ filename = 'programming.txt'
 with open(filename, 'w') as f:
     f.write('I love Programming')
 ```
+
+- with open(filename, 'w') as f - This line Opens the file in "Write mode"
+- f.write('I love programming') - Here we write the string 'I love programming' to the file 'programming.txt'.
+
+## Appending to files
+
+```
+filename = 'programming.txt'
+
+with open(filename, 'a') as f:
+    f.write('This is appended text.')
+```
+
+- with open(filename, 'a') as f: - This line opens the file in append mode.
+- This will add to the end of a existing file instead of writing over a file.
+
+
+
 
 
 

@@ -1,9 +1,4 @@
 filename = 'programming.txt'
 
-with open(filename, 'w') as f:
-    f.write('I love programming')
-
-with open(filename) as f:
-    contents = f.read()
-    print(contents)
-    
+with open(filename, 'a') as f:
+    f.write('This is appended text')
