@@ -54,3 +54,14 @@ for line in lines:
 
   - lines = f.readline() - This line takes the data from the file and add it to a list that you can work with outside of the (with open) block.
 
+
+### Writing Files
+
+```
+filename = 'programming.txt'
+with open(filename, 'w') as f:
+    f.write('I love Programming')
+```
+
+
+
