@@ -42,7 +42,15 @@ The for loop reads each line from f and adds it to line each time around line ha
 # Creating a list from file contents
 
 ```
+filename = names.txt
 
+with open('filename') as f:
+    lines = f.readlines()
+
+for line in lines:
+  print(line.rstrip())
 
 ```
+
+  - lines = f.readline() - This line takes the data from the file and add it to a list that you can work with outside of the (with open) block.
 
