@@ -79,6 +79,27 @@ with open(filename, 'a') as f:
 - This will add to the end of a existing file instead of writing over a file.
 
 
+## Analyzing text
+
+```
+filename = 'antichrist.py'
+
+with open(f'textfiles/antichrist.txt', encoding='utf-8') as f:
+    contents = f.read()
+
+
+words = contents.split()
+print(len(words))
+
+```
+
+- contents.split() - The split method spearates a string into parts wherever it finds a space and stores all the parts of a string into a list.
+- print(len(words)) - This prints the length of the list.
+- You can use this to count the number of words in a txt file. 
+
+
+# Json
+
 
 
 
