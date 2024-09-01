@@ -132,5 +132,48 @@ print(numbers)
 ```
 
 
+## Saving and Reading User-Generated Data
+
+
+### Saving
+```
+import json
+
+username = input('What is your name? ')
+
+filename = 'username.json'
+
+with open(filename, 'w') as f:
+    json.dump(username, f)
+    print(f"We'll remember you when you come back {username}")
+
+```
+
+- This code take user input, then dumps it into a json file
+
+
+### Reading
+
+```
+import json
+
+filename = 'username.json'
+
+with open(filename) as f:
+    username = json.load(f)
+    print(f"Welcome back {username}")
+```
+
+
+
+
+
+
+
+
+
+
+
+
 
 

@@ -1,8 +1,8 @@
-import json 
+import json
 
-filename = 'numbers.json'
+
+filename = 'username.json'
 
 with open(filename) as f:
-    numbers = json.load(f)
-
-print(numbers)
+    username = json.load(f)
+    print(f"Welcome back {username}")
