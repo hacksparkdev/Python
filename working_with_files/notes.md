@@ -101,7 +101,35 @@ print(len(words))
 # Json
 
 
+## Using json.dump() and json.load()
 
+
+### json.dump()
+
+```
+import json
+numbers = [2,65,684,364,6548,6,5,8,3]
+
+filename = 'numbers.json'
+with open(filename, 'w') as f:
+    json.dump(numbers, f)
+```
+
+ - Here we create a list of numbers, create a variable with 'filename' this will be the name of the file that the list is saved into
+ - json.dump(numbers, f) - This uses json.dump() to store the list
+
+
+### json.load()
+```
+import json
+
+filename = 'numbers.json'
+
+with open(filename) as f:
+    number = json.load(f)
+
+print(numbers)
+```
 
 
 

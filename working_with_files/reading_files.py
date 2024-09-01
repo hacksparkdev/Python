@@ -1,8 +1,8 @@
-filename = 'antichrist.py'
+import json 
 
-with open(f'textfiles/antichrist.txt', encoding='utf-8') as f:
-    contents = f.read()
+filename = 'numbers.json'
 
+with open(filename) as f:
+    numbers = json.load(f)
 
-words = contents.split()
-print(len(words))
+print(numbers)
