@@ -1,16 +1,19 @@
 [
     {
-        "name": "Chicken Alfredo",
+        "name": "Hotdogs",
         "ingrdients": [
-            "2 Tablespoons with sugar",
-            "1 tablespoon lemon juice",
-            "6 ears corn on cob, husks and silk removed"
+            "1 pack of hotdogs",
+            "1 pot",
+            "1 can of chille"
         ],
         "Nutrition": {
-            "calorites": 94,
-            "fat": 1,
-            "carbs": 22,
-            "protien": 3
-        }
+            "Calories": 50,
+            "fat": 9,
+            "carbs": 63,
+            "protien": 65
+        },
+        "Description": [
+            "American style hotdogs, Want to take years off of your life Eat these beautifuly awful hotdogs "
+        ]
     }
 ]
