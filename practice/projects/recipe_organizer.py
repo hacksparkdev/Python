@@ -1,6 +1,6 @@
 # Outline
 import json
-
+from pprint import pprint
 recipes = []
 # Add, edit, and delete recipe
 new_recipe = [
@@ -28,11 +28,18 @@ new_recipe = [
 
 with open('recipes.json') as file:
     data = json.load(file)
+    pprint(data)
 
-data.append(new_recipe)
+    
 
-with open('recipes.json', 'w') as file:
-    json.dump(data, file, indent=4)
+
+
+
+#with open('recipes.json', 'w') as file:
+#    json.dump(data, file, indent=4)
+
+
+
 
 #nutrition_info = recipes[0]['Nutrition']
 #for key, value in nutrition_info.items():
