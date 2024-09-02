@@ -28,7 +28,7 @@ new_recipe = [
 
 with open('recipes.json') as file:
     data = json.load(file)
-    pprint(data)
+
 
     
 
