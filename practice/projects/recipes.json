@@ -1,0 +1,16 @@
+[
+    {
+        "name": "Chicken Alfredo",
+        "ingrdients": [
+            "2 Tablespoons with sugar",
+            "1 tablespoon lemon juice",
+            "6 ears corn on cob, husks and silk removed"
+        ],
+        "Nutrition": {
+            "calorites": 94,
+            "fat": 1,
+            "carbs": 22,
+            "protien": 3
+        }
+    }
+]

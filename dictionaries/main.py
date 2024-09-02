@@ -1,6 +1,8 @@
-alien_0 = {}
+alien_0 = {"color" : "red"}
 
-alien_0['color'] = 'penis'
-alien_0['points'] = 5
+print(f"The alien is {alien_0['color']}")
 
-print(alien_0)
+alien_0['color'] = "Green"
+
+print(f"The alient is {alien_0['color']}")
+

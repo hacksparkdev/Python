@@ -31,4 +31,18 @@ alien_0['points'] = 5
 print(alien_0)
 ```
 
+## Modifying a Dict
+
+```
+alien_0 = {"color" : "red"}
+
+print(f"The alien is {alien_0['color']}")
+
+alien_0['color'] = "Green"
+
+print(f"The alient is {alien_0['color']}")
+```
+
+- Here all we need is the key, then we assign the new value. 
+
 
