@@ -1,31 +1,38 @@
 # Outline
 import json
 
+recipes = []
 # Add, edit, and delete recipe
-recipes = [
+new_recipe = [
     {
-        "name" : 'Hotdogs',
+        "name" : 'Steak',
 
         "ingrdients":[
-            '1 pack of hotdogs',
-            '1 pot',
-            '1 can of chille'
+            '2 Steak',
+            '1 bag of steak',
+            '1 gallon of steak',
+            '33 steaks'
 
         ],
         "Nutrition":{
-            'Calories' : 50,
-            'fat' : 9,
-            'carbs' : 63,
-            'protien': 65
+            'Calories' : 68,
+            'fat' : 5,
+            'carbs' : 6,
+            'protien': 6500
         },
         "Description":[
-            "American style hotdogs, Want to take years off of your life Eat these beautifuly awful hotdogs "
+            "STEAK!"
         ]
     }
 ]
 
+with open('recipes.json') as file:
+    data = json.load(file)
+
+data.append(new_recipe)
+
 with open('recipes.json', 'w') as file:
-    json.dump(recipes, file, indent=4)
+    json.dump(data, file, indent=4)
 
 #nutrition_info = recipes[0]['Nutrition']
 #for key, value in nutrition_info.items():

@@ -1,19 +1,60 @@
 [
     {
-        "name": "Hotdogs",
+        "name": "Homemade pizza",
         "ingrdients": [
-            "1 pack of hotdogs",
-            "1 pot",
-            "1 can of chille"
+            "3 pieces of bread",
+            "1 bag of cheese",
+            "1 whole bag of dicks",
+            "33 peparonies"
         ],
         "Nutrition": {
-            "Calories": 50,
-            "fat": 9,
-            "carbs": 63,
+            "Calories": 250,
+            "fat": 93,
+            "carbs": 39,
             "protien": 65
         },
         "Description": [
-            "American style hotdogs, Want to take years off of your life Eat these beautifuly awful hotdogs "
+            "Fun way to make pizza with the kids, Just use bread pizza sauce, and cheese, Pop it into the air fryer and your done"
         ]
-    }
+    },
+    [
+        {
+            "name": "Peanut Butter Cookies",
+            "ingrdients": [
+                "2 tablespoons of peanut butter",
+                "1 bag of sugar",
+                "1 gallon of milk",
+                "33 eggs"
+            ],
+            "Nutrition": {
+                "Calories": 250,
+                "fat": 93,
+                "carbs": 39,
+                "protien": 65
+            },
+            "Description": [
+                "Great Way to get diabetes, Want diabetes?? Just eat a few of these cookies"
+            ]
+        }
+    ],
+    [
+        {
+            "name": "Steak",
+            "ingrdients": [
+                "2 Steak",
+                "1 bag of steak",
+                "1 gallon of steak",
+                "33 steaks"
+            ],
+            "Nutrition": {
+                "Calories": 68,
+                "fat": 5,
+                "carbs": 6,
+                "protien": 6500
+            },
+            "Description": [
+                "STEAK!"
+            ]
+        }
+    ]
 ]
