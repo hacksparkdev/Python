@@ -1,7 +1,6 @@
+def build_person(first_name, last_name):
+    person = {'first': first_name, 'lastname': last_name}
+    return person
 
-
-def greet_user(username):
-    print(f"Hello {username.title()}")
-
-
-greet_user('penis')
+musician = build_person('Corey', 'Jones')
+print(musician)

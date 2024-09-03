@@ -37,5 +37,29 @@ greet_user('Greg' <<------ Argument)
 - Argument - The Real values passed to the function.
 
 
+### Positional Arguments
+
+```
+def describe_pet(animal_type, pet_name):
+    print(f"I have a {animal_type}")
+    print(f"My {animal_type} name is {pet_name}")
+
+describe_pet()
+
+```
+
+- The Arguments should be given in the order the parameters are.
+
+
+### Returning Dictionary
+
+```
+def build_person(first_name, last_name):
+    person = {'first': first_name, 'lastname': last_name}
+    return person
+
+musician = build_person('Corey', 'Jones')
+print(musician)
+```
 
 
