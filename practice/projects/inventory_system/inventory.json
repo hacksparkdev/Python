@@ -1,0 +1,47 @@
+{
+    "inventory": [
+        {
+            "brand": "Nike",
+            "shirts": [
+                {
+                    "color": "Red",
+                    "sizes": {
+                        "S": 10,
+                        "M": 15,
+                        "L": 5
+                    }
+                },
+                {
+                    "color": "Blue",
+                    "sizes": {
+                        "S": 7,
+                        "M": 12,
+                        "L": 8
+                    }
+                }
+            ]
+        },
+        {
+            "brand": "Ralph Lauren",
+            "shirts": [
+                {
+                    "color": "Green",
+                    "sizes": {
+                        "S": 6,
+                        "M": 9,
+                        "L": 4
+                    }
+                },
+                {
+                    "color": "Yellow",
+                    "sizes": {
+                        "S": 8,
+                        "M": 10,
+                        "L": 7
+                    }
+                }
+            ]
+        }
+    ]
+}
+
